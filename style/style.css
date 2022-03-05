@@ -56,12 +56,36 @@ nav{
 
 main {
     font-family: 'Jost', sans-serif;
+
 }
 
 #titulo {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.card-body{
+
+    background-color: rgba(206, 206, 206, 0.11);
+    
+}
+
+
+
+/*No
 
 .productos {
     font-family: 'Jost', sans-serif;
@@ -73,6 +97,10 @@ main {
     width: 325px;
     margin-left: 100px;
 }
+
+*/
+
+
 
 /*Footer*/
 
@@ -118,7 +146,7 @@ footer{
     border: 3px orchid solid;
 }
 
-.card{
+.cartelNosotros{
     margin-top: 10px;
     min-height: 400px;
 
@@ -278,7 +306,9 @@ footer{
     #logo{
 
         margin-right: 100px;
-        width: 65vw;
+        height: 50vh;
+        width: 70vw;
+      
 
     }
 
